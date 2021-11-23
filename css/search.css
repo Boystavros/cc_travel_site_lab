@@ -1,3 +1,5 @@
-.where-to-go {
-    display: grid
+.where-togo {
+    display: grid;
+    background-color: black;
+    color: grey;
 }
