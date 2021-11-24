@@ -4,50 +4,60 @@
     grid-template-areas:
       "fave1 fave2 fave3";
     grid-template-columns: 3fr 3fr 3fr;
-    height: auto;
+    grid-template-rows: 100%;
     color: white;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 8px;
   }
 
   .favourite-bg-1 {
     background-image: url(../img/favourites/indonesia.png);
     grid-area: fave1;
-    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
     background-size: cover;
+    height: 200px;
   }
   
   .favourite-bg-2 {
     background-image: url(../img/favourites/australia.png);
     grid-area: fave2;
-    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-size: cover;
+    height: 200px;
   }
   
   .favourite-bg-3 {
     background-image: url(../img/favourites/switzerland.png);
     grid-area: fave3;
-    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-size: cover;
+    height: 200px;
   }
 
   .country-name{
     position: relative;
     font-family: 'Comforter Brush', cursive;
-    font-size: 56px;
+    font-size: 3rem;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 1rem;
     margin-bottom: 0;
   }
 
   .country-text {
-    top: 30%;
+    font-size: 1rem;
     margin-left: 10%;
   }
 
   .explore-button{
-    background-color: green;
+    background-color: turquoise;
     border: none;
-    margin-left: 10%;
-    margin-bottom: 10%;
+    margin-top: 1.5rem;
+    margin-left: 10%;    
   }
 
   .explore-button > a {
