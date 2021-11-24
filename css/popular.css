@@ -9,8 +9,10 @@
 }
 
 .destination {
-    display: flex;
-    margin: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    margin: 20px;
     background-size: cover;
     height: 400px;
     border-radius: 5px;
@@ -21,7 +23,12 @@
     background-color: turquoise;
     border-style: none;
     border-radius: 50px;
-    height: 1rem;
+    height: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .oval-button > a {
@@ -32,4 +39,23 @@
     background-image: url(../img/destination/italy.png);    
 }
 
+#brazil {
+    background-image: url(../img/destination/brazil.png);
+}
+
+#america {
+    background-image: url(../img/destination/america.png);
+}
+
+#nepal {
+    background-image: url(../img/destination/nepal.png);
+}
+
+#maldives {
+    background-image: url(../img/destination/maldives.png);
+}
+
+#indonesia {
+    background-image: url(../img/destination/indonesia.png);
+}
 
