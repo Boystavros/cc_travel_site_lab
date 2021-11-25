@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.popular > p {
+    color: grey;
+}
+
 .pop-dest-pics {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,14 +23,20 @@
     color: white;
 }
 
+.dest-name {
+    grid-column: 1;
+    grid-row: -1;
+}
+
 .oval-button {
+    grid-column: 2;
+    grid-row: -1;
     background-color: turquoise;
     border-style: none;
     border-radius: 50px;
-    height: 16px;
+    height: 20px;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin: 16px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
